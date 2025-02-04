@@ -3,9 +3,6 @@
 import {Movement} from "@/schemas/MovementSchema";
 import {TableCell, TableRow} from "@/components/ui/table";
 import {XIcon} from "lucide-react";
-import Link from "next/link";
-import {useRouter} from "next/navigation";
-import {FilterOptions} from "@/lib/utils";
 
 const MovementRow = ({movement, openConfirmationModal, showModalWithMovement}:
                      {
